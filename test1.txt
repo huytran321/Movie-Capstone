@@ -1,0 +1,50 @@
+The Shawshank Redemption (1994), rating: 9.223834827496653, starring: Frank Darabont (dir.), Tim Robbins, Morgan Freeman
+The Godfather (1972), rating: 9.148062454970646, starring: Francis Ford Coppola (dir.), Marlon Brando, Al Pacino
+The Godfather: Part II (1974), rating: 8.98021456007784, starring: Francis Ford Coppola (dir.), Al Pacino, Robert De Niro
+The Dark Knight (2008), rating: 8.975610366436678, starring: Christopher Nolan (dir.), Christian Bale, Heath Ledger
+12 Angry Men (1957), rating: 8.935528682786295, starring: Sidney Lumet (dir.), Henry Fonda, Lee J. Cobb
+Schindler's List (1993), rating: 8.910582845282837, starring: Steven Spielberg (dir.), Liam Neeson, Ralph Fiennes
+The Lord of the Rings: The Return of the King (2003), rating: 8.88747624699908, starring: Peter Jackson (dir.), Elijah Wood, Viggo Mortensen
+Pulp Fiction (1994), rating: 8.842447816489951, starring: Quentin Tarantino (dir.), John Travolta, Uma Thurman
+The Good, the Bad and the Ugly (1966), rating: 8.792438593980068, starring: Sergio Leone (dir.), Clint Eastwood, Eli Wallach
+The Lord of the Rings: The Fellowship of the Ring (2001), rating: 8.778410757175509, starring: Peter Jackson (dir.), Elijah Wood, Ian McKellen
+Fight Club (1999), rating: 8.762848449622085, starring: David Fincher (dir.), Brad Pitt, Edward Norton
+Forrest Gump (1994), rating: 8.75428134547159, starring: Robert Zemeckis (dir.), Tom Hanks, Robin Wright
+Inception (2010), rating: 8.720858268982106, starring: Christopher Nolan (dir.), Leonardo DiCaprio, Joseph Gordon-Levitt
+The Lord of the Rings: The Two Towers (2002), rating: 8.701889011919404, starring: Peter Jackson (dir.), Elijah Wood, Ian McKellen
+Star Wars: Episode V - The Empire Strikes Back (1980), rating: 8.695367946713944, starring: Irvin Kershner (dir.), Mark Hamill, Harrison Ford
+The Matrix (1999), rating: 8.64906978670474, starring: Lana Wachowski (dir.), Keanu Reeves, Laurence Fishburne
+Goodfellas (1990), rating: 8.643190181659794, starring: Martin Scorsese (dir.), Robert De Niro, Ray Liotta
+One Flew Over the Cuckoo's Nest (1975), rating: 8.635462972510142, starring: Milos Forman (dir.), Jack Nicholson, Louise Fletcher
+Seven Samurai (1954), rating: 8.603053814611938, starring: Akira Kurosawa (dir.), Toshir� Mifune, Takashi Shimura
+Se7en (1995), rating: 8.59149101244413, starring: David Fincher (dir.), Morgan Freeman, Brad Pitt
+Life Is Beautiful (1997), rating: 8.584367043979043, starring: Roberto Benigni (dir.), Roberto Benigni, Nicoletta Braschi
+City of God (2002), rating: 8.579239607051985, starring: Fernando Meirelles (dir.), Alexandre Rodrigues, Leandro Firmino
+The Silence of the Lambs (1991), rating: 8.575917103133275, starring: Jonathan Demme (dir.), Jodie Foster, Anthony Hopkins
+It's a Wonderful Life (1946), rating: 8.574320460544508, starring: Frank Capra (dir.), James Stewart, Donna Reed
+Saving Private Ryan (1998), rating: 8.551521204569816, starring: Steven Spielberg (dir.), Tom Hanks, Matt Damon
+Star Wars: Episode IV - A New Hope (1977), rating: 8.551412479871102, starring: George Lucas (dir.), Mark Hamill, Harrison Ford
+The Green Mile (1999), rating: 8.541296664375853, starring: Frank Darabont (dir.), Tom Hanks, Michael Clarke Duncan
+Spirited Away (2001), rating: 8.538634516496536, starring: Hayao Miyazaki (dir.), Daveigh Chase, Suzanne Pleshette
+Interstellar (2014), rating: 8.537216366357967, starring: Christopher Nolan (dir.), Matthew McConaughey, Anne Hathaway
+Parasite (2019), rating: 8.528453650062499, starring: Bong Joon Ho (dir.), Kang-ho Song, Sun-kyun Lee
+L�on: The Professional (1994), rating: 8.506460336197783, starring: Luc Besson (dir.), Jean Reno, Gary Oldman
+Hara-Kiri (1962), rating: 8.498197775176626, starring: Masaki Kobayashi (dir.), Tatsuya Nakadai, Akira Ishihama
+The Usual Suspects (1995), rating: 8.49238007758562, starring: Bryan Singer (dir.), Kevin Spacey, Gabriel Byrne
+The Lion King (1994), rating: 8.492305010057473, starring: Roger Allers (dir.), Matthew Broderick, Jeremy Irons
+The Pianist (2002), rating: 8.489580345294533, starring: Roman Polanski (dir.), Adrien Brody, Thomas Kretschmann
+Terminator 2: Judgment Day (1991), rating: 8.487623238710318, starring: James Cameron (dir.), Arnold Schwarzenegger, Linda Hamilton
+Back to the Future (1985), rating: 8.487239276666998, starring: Robert Zemeckis (dir.), Michael J. Fox, Christopher Lloyd
+American History X (1998), rating: 8.481724960593933, starring: Tony Kaye (dir.), Edward Norton, Edward Furlong
+Modern Times (1936), rating: 8.481010857235797, starring: Charles Chaplin (dir.), Charles Chaplin, Paulette Goddard
+Gladiator (2000), rating: 8.477469090098841, starring: Ridley Scott (dir.), Russell Crowe, Joaquin Phoenix
+Psycho (1960), rating: 8.477026039744421, starring: Alfred Hitchcock (dir.), Anthony Perkins, Janet Leigh
+The Departed (2006), rating: 8.472363779402244, starring: Martin Scorsese (dir.), Leonardo DiCaprio, Matt Damon
+City Lights (1931), rating: 8.471439779111048, starring: Charles Chaplin (dir.), Charles Chaplin, Virginia Cherrill
+Whiplash (2014), rating: 8.469048883553977, starring: Damien Chazelle (dir.), Miles Teller, J.K. Simmons
+The Intouchables (2011), rating: 8.468900888454936, starring: Olivier Nakache (dir.), Fran�ois Cluzet, Omar Sy
+Grave of the Fireflies (1988), rating: 8.463105385708458, starring: Isao Takahata (dir.), Tsutomu Tatsumi, Ayano Shiraishi
+The Prestige (2006), rating: 8.459966641768364, starring: Christopher Nolan (dir.), Christian Bale, Hugh Jackman
+Once Upon a Time in the West (1968), rating: 8.444607399353355, starring: Sergio Leone (dir.), Henry Fonda, Charles Bronson
+Casablanca (1942), rating: 8.436772719140123, starring: Michael Curtiz (dir.), Humphrey Bogart, Ingrid Bergman
+Cinema Paradiso (1988), rating: 8.434825236711145, starring: Giuseppe Tornatore (dir.), Philippe Noiret, Enzo Cannavale
