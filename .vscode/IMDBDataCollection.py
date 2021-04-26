@@ -1,5 +1,6 @@
 import requests #pip install requests
 from bs4 import BeautifulSoup #pip install bs4
+import csv
 import math
 
 url = 'https://www.imdb.com/filmosearch/?explore=title_type&role=nm0000206&ref_=filmo_ref_typ&sort=year,desc&mode=detail&page=1&title_type=movie'
@@ -109,6 +110,13 @@ def IMDBDataCollection(url):
         f.close()    
 
     insertAllIntoIMDB(movieTag)
+
+def newCSV():
+    f = open("IMDBMoviesDetail.csv", "w")
+    categories = (f'titles | years | genres | certifcation | IMDBRatings | metaScores | votes | dataValues')
+    f.write(categories)
+    f.write("\n")
+    f.close()
     
 def collectAllMovies(url):
     response = requests.get(url)
@@ -131,10 +139,57 @@ def collectAllMovies(url):
     pages = totalMovie / moviesPerPage
     pages = math.ceil(pages)
 
+    newCSV()
     IMDBDataCollection(url)
     for pageNum in range(pages - 1):
         url = url.replace(f'page={pageNum + 1}', f'page={pageNum + 2}')
         IMDBDataCollection(url)
 
 
-collectAllMovies(url)
+def boxOfficeCSV():
+    with open('IMDBMoviesDetail.csv', 'r') as file:
+        reader = csv.reader(file, delimiter = '|')
+        boxOfficeList = []
+        for row in reader:
+            boxOfficeList.append(row[len(row) - 1])
+        
+        f = open("BoxOfficeUrlDataBase.txt", 'w')
+        f.write("BoxOfficeWebsite")
+        f.write("\n")
+        f.close()
+
+        f = open("BoxOfficeUrlDataBase.txt", "a+")
+        for idx in range(len(boxOfficeList) - 1):
+            info = (f'https://www.boxofficemojo.com{boxOfficeList[idx + 1]}')
+            info = info.replace(" ", "")
+            f.write(info)
+            f.write("\n")
+        f.close()
+
+def movieRatingCSV():
+    with open('IMDBMoviesDetail.csv', 'r') as file:
+        reader = csv.reader(file, delimiter = '|')
+        ratingList = []
+        for row in reader:
+            ratingList.append(row[len(row) - 1])
+        
+        f = open("RatingUrlDataBase.txt", 'w')
+        f.write("RatingWebsite")
+        f.write("\n")
+        f.close()
+
+        f = open("RatingUrlDataBase.txt", "a+")
+        for idx in range(len(ratingList) - 1):
+            info = (f'https://www.imdb.com/{ratingList[idx + 1]}ratings')
+            info = info.replace(" ", "")
+            f.write(info)
+            f.write("\n")
+        f.close()        
+
+def main():
+    collectAllMovies(url)
+    boxOfficeCSV()
+    movieRatingCSV()
+
+if __name__ == '__main__':
+    main()
