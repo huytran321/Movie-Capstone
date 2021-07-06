@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup #pip install bs4
 import csv
 import math
 
-url = 'https://www.imdb.com/filmosearch/?explore=title_type&role=nm0000206&ref_=filmo_ref_typ&sort=year,desc&mode=detail&page=1&title_type=movie'
-testActor = "Keanu Reeves"
+url = 'https://www.imdb.com/filmosearch/?explore=title_type&role=nm0425005&ref_=filmo_ref_typ&sort=year,desc&mode=detail&page=1&title_type=movie'
+testActor = "Dwayne Johnson"
 
 def IMDBDataCollection(url):
     response = requests.get(url)
@@ -27,6 +27,8 @@ def IMDBDataCollection(url):
         year = str(year)
         year = year.replace('(','')
         year = year.replace(')','')
+        year = year.replace('I', '')
+        year = year.replace(' ', '')
         if year == "":
             return None
         else:

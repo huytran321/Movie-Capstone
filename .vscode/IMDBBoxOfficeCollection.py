@@ -2,8 +2,6 @@ import requests #pip install requests
 from bs4 import BeautifulSoup #pip install bs4
 import csv
 
-url = 'https://www.boxofficemojo.com/title/tt6146586/'
-
 def IMDBBoxOfficeCollection(url):
     response = requests.get(url)
     html = response.text
@@ -12,8 +10,7 @@ def IMDBBoxOfficeCollection(url):
     movieTag = soup.find('div', {'class' : 'a-section a-spacing-none mojo-gutter mojo-summary-table'})
 
     def getDomesticOpening(movieTag):
-        domesticOpening = movieTag.find('div', {'class' : 'a-section a-spacing-none mojo-summary-values mojo-hidden-from-mobile'})
-        domesticOpening = domesticOpening.find_all('div', {'class' : 'a-section a-spacing-none'})
+        domesticOpening = movieTag.find_all('div', {'class' : 'a-section a-spacing-none'})
         for row in domesticOpening:
             if 'Domestic Opening' in row.text:
                 domesticOpening = row.find('span', {'class' : 'money'})
@@ -40,8 +37,7 @@ def IMDBBoxOfficeCollection(url):
         return None
 
     def getDomestic(movieTag):
-        domestic = movieTag.find('div', {'class' : 'a-section a-spacing-none mojo-performance-summary-table'})
-        domestic = domestic.find_all('div', {'class' : 'a-section a-spacing-none'})
+        domestic = movieTag.find_all('div', {'class' : 'a-section a-spacing-none'})
         for money in domestic:
             if 'Domestic' in money.text:
                 domestic = money.find('span', {'class' : 'money'})
@@ -52,7 +48,7 @@ def IMDBBoxOfficeCollection(url):
                 domestic = domestic.replace(",", "")
                 return int(domestic)
         return None
-        
+
     def getInternational(movieTag):
         international = movieTag.find('div', {'class' : 'a-section a-spacing-none mojo-performance-summary-table'})
         international = international.find_all('div', {'class' : 'a-section a-spacing-none'})
